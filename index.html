@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whack-A-Penguin 🐧</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- START SCREEN -->
+  <div class="start-screen" id="startScreen">
+    <h1>🐧 Whack-A-Penguin</h1>
+    <p>Catch the cute penguins before time runs out!</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div class="game hidden" id="game">
+    <div class="info">
+      <span>Score: <b id="score">0</b></span>
+      <span>Time: <b id="time">30</b>s</span>
+    </div>
+
+   <div class="grid">
+  <!-- 25 holes -->
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+  <div class="hole"></div>
+</div>
+
+  </div>
+
+  <!-- RESULT POPUP -->
+  <div class="result-popup" id="resultPopup">
+    <div class="popup-box">
+      <h2>🐧 Time’s Up!</h2>
+      <p>Your Score</p>
+      <h1 id="finalScore">0</h1>
+      <button onclick="restartGame()">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
