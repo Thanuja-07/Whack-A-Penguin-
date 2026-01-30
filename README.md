@@ -3,15 +3,9 @@
 A cute and interactive **Whack-A-Mole style browser game** built using **HTML, CSS, and JavaScript**.  
 The game features a pastel green theme, smooth animations, and fun penguin characters that pop up randomly for players to whack before time runs out!
 
-![Game Screenshot](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Whack-A-Penguin+Game)
 
 ---
 
-## 🎮 Live Demo
-👉 [Play Now](https://mkeerthana-08.github.io/Whack-A-Penguin-)  
-*(Or open `index.html` in your browser)*
-
----
 
 ## ✨ Enhanced Features
 
