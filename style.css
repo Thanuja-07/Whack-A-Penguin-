@@ -620,6 +620,18 @@ input:checked + .toggle-slider:before {
   margin: 30px 0;
   position: relative;
 }
+ .score-board {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
 
 .final-score {
   background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
