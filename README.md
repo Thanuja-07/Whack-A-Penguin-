@@ -65,5 +65,3 @@ The game features a pastel green theme, smooth animations, and fun penguin chara
 | **CSS Grid & Flexbox** | Modern layout techniques |
 
 ---
-
-## 📂 Project Structure
